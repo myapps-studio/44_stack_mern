@@ -4,10 +4,11 @@ class PostsCounter extends React.Component {
 
   render() {
     return (
-      <div>Posts counter</div>
+      <div>
+        Posts amount: 2
+      </div>
     );
   }
-
 };
 
 export default PostsCounter;
