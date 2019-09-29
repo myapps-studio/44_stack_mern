@@ -1,14 +1,32 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "cors": "2.8.5",
     "express": "4.17.0",
     "helmet": "3.18.0",
+    "mongo-sanitize": "^1.0.1",
     "mongoose": "5.5.11",
-    "nodemon": "1.19.1"
+    "nodemon": "1.19.1",
+    "uuid": "3.3.2"
   },
-  "start:server": "cd server && yarn start"
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
