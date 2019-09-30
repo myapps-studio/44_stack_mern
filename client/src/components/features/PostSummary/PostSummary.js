@@ -1,7 +1,7 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
 import './PostSummary.scss';
-import HtmlBox from '../common/HtmlBox';
+import HtmlBox from '../../common/HtmlBox/HtmlBox';
 
 import Button from '../../common/Button/Button';
 import SmallTitle from '../../common/SmallTitle/SmallTitle';
