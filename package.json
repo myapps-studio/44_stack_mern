@@ -6,7 +6,7 @@
     "npm-run-all": "^4.1.5"
   },
   "scripts": {
-    "start": "npm-run-all -p -l build:client start:server",
+    "start": "npm-run-all -p -l start:client start:server",
     "build:client": "cd client && npm run build",
     "start-dev": "npm-run-all -p -l start:*",
     "start:server": "cd server && yarn start",
